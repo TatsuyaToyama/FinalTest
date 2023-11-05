@@ -1,0 +1,248 @@
+
+
+span{
+    color: red;
+    size: 8px;
+}
+
+th,td{
+    padding: 10px;
+
+}
+
+th{
+    width: 250px;
+    height: 100%;
+}
+
+td{
+    width:400px;
+    height: 80px;
+    text-align: left;
+}
+
+input{
+    height: 25px;
+    
+    border-radius: 4px;
+    border-color: gray;
+    border-width: 1px;
+    
+ 
+}
+
+.contents{
+    margin-bottom: 20px;
+
+
+}
+
+.contents_table{
+    margin: auto;
+}
+
+
+.contents_form-inner{
+    display: flex;
+    text-align: center ;
+
+
+}
+
+.contents_form-name{
+    align-items: center;
+}
+
+.contents_form-name-title{
+    background-color: 
+}
+
+.contents_form-name-last-error {
+    background-color: pink;
+}
+
+.contents_form-name-first-error {
+    background-color: pink;
+}
+
+.contents_form-name{
+    display: flex;
+    padding-top: 0;
+    margin-top: 0;
+
+}
+
+.contents_form-name-last-inner{
+    width: 50%;
+    margin-right: 3px;
+}
+
+
+
+.contents_form-name-last{
+    width: 100%;
+}
+.contents_form-name-example {
+    display: flex;
+    height: 30px;
+}
+
+
+.contents_form-name-first-inner{
+    width: 50%;
+    margin-left:3px;
+}
+
+.contents_form-name-first{
+
+    width: 100%;
+}
+
+.contents_form-name-example-last{
+    margin:0 auto;
+    color: gray;
+    font-size: 12px;
+
+}
+
+.contents_form-name-example-first{
+    margin:0 auto;
+    color: gray;
+    font-size: 12px;
+
+}
+
+.contents_form-gender-title{
+    height: 50px;
+}
+
+.contents_form-gender {
+    height: 50px;
+}
+.contents_form-gender-woman {
+    margin-left: 20px;
+}
+
+.contents_form-email-error{
+    background-color: pink;
+}
+
+.contents_form-email-input{
+    margin: 0;
+
+    width:100%;
+}
+
+.contents_form-email-exmple{
+    margin: auto;
+}
+
+.contents_form-email-example-input{
+
+    margin: 0;
+    color: gray;
+    font-size: 12px;
+    
+}
+
+.contents_form-postcode-error{
+    background-color: pink;
+}
+
+.contents_form-postcode-inner{
+    display: flex;
+    height: 25px;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.contents_form-postcode-mark{
+    margin: 0 4px 0 0;
+    height: 25px;
+}
+
+
+
+.p-postal-code{
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.contents_form-postcode-example-input {
+    margin: 0 auto 0 25px;
+    color: gray;
+    font-size: 12px;
+}
+
+.contents_form-address-error{
+    background-color: pink;
+}
+
+
+.p-region{
+    width: 100%;
+}
+
+.contents_form-address-example-input{
+    margin-top: 0;
+    color: gray;
+    font-size: 12px;
+}
+
+.contents_form-opinion-error{
+    background-color: pink;
+}
+
+
+
+.contents_form-building-input{
+    width: 100%;
+    margin: 0;
+
+}
+
+.contents_form-building-example-input{
+    margin: 0;
+    color: gray;
+    font-size: 12px;
+
+}
+
+.contents_form-opinion-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.contents_form-opinion{
+    height: 150px;
+}
+
+.contents_form-opinion-input{
+    border-radius: 4px;
+    border-color: gray;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+.contents_form-submit{
+    display: flex;
+    margin: 20px;
+}
+
+.contents_form-submit-button{
+    margin: auto;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 150px;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    
+}
+
+

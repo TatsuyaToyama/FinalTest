@@ -1,0 +1,59 @@
+.contents{
+    margin-bottom: 50px;
+}
+
+
+.contents_table{
+    margin: auto;
+
+}
+
+th{
+    width: 200px;
+}
+
+td {
+    width: 200px;
+}
+tr{
+    height: 100%;
+
+}
+
+.contents_form-name-input{
+    display: flex;
+}
+
+.contents_form-name-last{
+    margin-right: 10px;
+
+}
+
+
+.contents_form-submit{
+    display: flex;
+}
+
+.contents_form-submit-button{
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 150px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.contents_form-submit-button-modify{
+    margin: auto;
+    color: black;
+    border: none;
+    background: transparent;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+

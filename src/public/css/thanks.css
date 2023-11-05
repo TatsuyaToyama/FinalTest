@@ -1,0 +1,26 @@
+.contents{
+    display: flex;
+}
+
+.contents_thanks{
+    margin: auto;
+    margin-top: 20%;
+}
+
+.contents_toppage-inner{
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contents_toppage{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 150px;
+    border: none;
+    padding: 3px;
+    
+
+}

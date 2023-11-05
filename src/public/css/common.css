@@ -1,0 +1,13 @@
+.header{
+    display:flex;
+    padding: 30px;
+}
+
+.title {
+    margin: auto;
+}
+
+.title-system{
+    font-size: 25px !important;
+    font-weight: bolder !important;
+}

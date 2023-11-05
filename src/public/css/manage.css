@@ -1,0 +1,244 @@
+input {
+    height: 35px;
+    border-radius: 4px;
+    border-color: gray;
+    border-width: 1px;
+}
+span{
+    font-weight: bold;
+}
+
+
+
+.contents{
+    margin-bottom: 40px;
+    max-width: 1230px;
+    
+
+}
+
+.search{
+    width: 1000px;
+    margin: auto;
+    border: solid 3px black;
+    
+
+
+}
+
+.search_inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search_name{
+    width: 39%;
+    padding: 10px;
+}
+
+.search_name-input{
+    margin-left: 80px;
+    width: 200px;
+}
+
+.search_gender{
+    width: 40%;
+    padding: 10px;
+}
+
+.search_gender-all{
+    margin-left:20px;
+    vertical-align: middle; 
+}
+
+.search_gender-man {
+    margin-left: 20px;
+    vertical-align: middle;
+
+}
+.search_gender-woman {
+    margin-left: 20px;
+    vertical-align: middle;
+
+}
+
+.search_date{
+    display: flex;
+    width: 80%;
+    padding: 10px;
+}
+
+.search_date-title{
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+.search_date-start{
+    margin-left: 80px;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.search_date-interbal{
+    margin: 0 20px;
+    margin-top: 14px;
+}
+
+.search_date-end{
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.search_email{
+    width: 100%;
+    padding: 10px;
+}
+
+.search_email-input{
+    margin-left: 20px;
+    width: 200px;
+}
+
+.search_submit{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.search_submit-button{
+    margin: auto;
+
+    background-color: black !important;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 150px;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+
+}
+
+.search_form-reset{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.search_form-reset-inner{
+    margin: auto;
+}
+
+.search_form-reset-button{
+    cursor: pointer;
+    color: black;
+    border: none;
+    background: transparent;
+    text-decoration: underline;
+}
+
+
+.result{
+    margin-bottom: 50px;
+
+}
+
+.result_page{
+
+    display: flex;
+    margin: auto;
+    width: 1000px;
+}
+
+.result_count{
+    margin: 20px;
+    
+
+
+}
+
+.result_pagenumber{
+    margin-left: auto;
+    margin-top: 13px;
+    max-width: 400px;
+    text-align: right;
+}
+
+.result_table{
+    margin: auto;
+    margin-top: 40px;
+}
+
+.result_table-row{
+    border-bottom: 2px solid black;
+}
+
+.result_table-id{
+    width: 80px;
+}
+
+.result_table-fullname {
+    width: 100px;
+
+}
+
+.result_table-gender {
+    width: 80px;
+
+}
+
+.result_table-email {
+    width: 300px;
+
+
+}
+
+.result_table-opinion {
+    width: 450px;
+
+}
+
+.result_table-content-opinion{
+    width: 150px;
+}
+
+
+
+.result_table-content-row{
+    text-align: center;
+    height: 40px;
+}
+
+.result_table-content-opinion-popup {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 1;
+    
+}
+
+.result_table-content-opinion:hover .result_table-content-opinion-popup {
+    display: block;
+}
+
+.result_table-content-delete {
+    width: ;
+
+}
+
+.result_table-form-delete{
+    width: 60px;
+    height: 50%;
+    background-color: black !important;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
