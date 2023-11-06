@@ -72,10 +72,12 @@
             </th>
             <td class="contents_form-postcode">
                 <div class="contents_form-postcode-inner">
-                        <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
+                        <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8">
+                        </script>
                         <span class="p-country-name" style="display:none;">Japan</span>
                     <p class="contents_form-postcode-mark">〒</p>
                     <input type="text" class="p-postal-code" size="8" maxlength="8" name="postcode" value="{{ old('postcode') }}">
+
                 </div>
                     <p class="contents_form-postcode-example-input">例）123-4567</p>
                 
